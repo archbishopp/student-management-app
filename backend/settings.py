@@ -45,9 +45,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'students',
-    'student-management-app-11.onrender.com',
-    'student-management-app-10.onrender.com',
-    'student-management-app-9.onrender.com',
+    'student-management-app-13.onrender.com',
     'localhost',
     '127.0.0.1'
 ]
