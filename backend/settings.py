@@ -28,7 +28,8 @@ SECRET_KEY = 'django-insecure-20fpy&n@b&t(ti!lcgyhg5d4x#*t7)#tqg-_)7tie-(s5rqt1_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['student-management-app-9.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
+
 
 
 
@@ -44,6 +45,11 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'students',
+    'student-management-app-11.onrender.com',
+    'student-management-app-10.onrender.com',
+    'student-management-app-9.onrender.com',
+    'localhost',
+    '127.0.0.1'
 ]
 
 MIDDLEWARE = [
